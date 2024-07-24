@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
     origin: (origin, callback) => {
-      const allowedOrigins = ['https://inventory-app-3i8q.onrender.com', 'http://localhost:3000'];
+      const allowedOrigins = ['https://inventory-app-3i8q.onrender.com', 'http://localhost:3000','*'];
       if (allowedOrigins.includes(origin)) {
         callback(null, true);
       } else {
