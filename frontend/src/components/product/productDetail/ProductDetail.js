@@ -80,11 +80,22 @@ const ProductDetail = () => {
       ></div>
     </p>
     <p>
+      <b>&rarr; Supplier Category : </b> {product.quantity}
+    </p>
+    <p>
+      <b>&rarr; Quantity in Stock : </b> {product.quantity}
+    </p>
+    <p>
       <b>&rarr; Date Created : </b> {product.createdAt ? new Date(product.createdAt).toLocaleString() : "N/A"}
     </p>
     <p>
       <b>&rarr; Date Updated : </b> {product.updatedAt ? new Date(product.updatedAt).toLocaleString() : "N/A"}
     </p>
+    <button>
+    <h4>
+      <span className="badge">Deliver Order </span> &nbsp; {product.name}
+    </h4>
+    </button>
   </div>
 )}
 
