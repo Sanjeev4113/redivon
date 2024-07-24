@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "backend": "nodemon server.js",
-    "build": "cd../frontend && npm run build && cd../backend",
+    "build": "cd ../frontend && npm install && npm run build",
     "start": "node server.js"
   },
   "keywords": [],
