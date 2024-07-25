@@ -1,5 +1,5 @@
 .home {
-  background-color: #030b6b;
+  background-image: url('../../assets/bg.gif');
   min-height: 100vh;
 
   & nav {
@@ -32,6 +32,7 @@
 
 .hero-text {
   width: 50%;
+  padding-top: 10rem;
   & > * {
     color: #fff;
     margin-bottom: 2rem;
@@ -44,7 +45,7 @@
   }
 }
 .hero-image {
-  width: 50%;
+  width: 30%;
 }
 @media screen and (max-width: 600px) {
   .hero {
@@ -56,7 +57,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 100%;
+    width: 50%;
     margin: auto;
     text-align: center;
   }

@@ -1,5 +1,5 @@
 import React from "react";
-import { TbCircleLetterGFilled } from "react-icons/tb";
+import { TbCircleLetterPFilled } from "react-icons/tb";
 import { Link } from "react-router-dom";
 import "./Home.scss";
 import heroImg from "../../assets/inv-img.png";
@@ -10,7 +10,7 @@ const Home = () => {
     <div className="home">
       <nav className="container --flex-between ">
         <div className="logo">
-          <TbCircleLetterGFilled size={35} />
+          <TbCircleLetterPFilled size={35} />
         </div>
 
         <ul className="home-links">
@@ -38,25 +38,24 @@ const Home = () => {
       {/* HERO SECTION */}
       <section className="container hero">
         <div className="hero-text">
-          <h2>GeomaticsME {"&"} Inventory Management Solution</h2>
+          <h2>Inventory Management Solution</h2>
           <p>
-            Inventory system to control and manage proucts in the warehouse in
-            real timeand integrated to make it easier to develop your business.
+            Inventory App is going to be the solution for the product or inventory Managements.
           </p>
           <div className="hero-buttons">
             <button className="--btn --btn-secondary">
-              <Link to="https://geomaticsme.com/">GeomaticsME</Link>
+              <Link to="https://6579690a14fe616be8e830e6--tiny-cassata-9c6953.netlify.app/">Ayush PF</Link>
             </button>
           </div>
           <div className="--flex-start">
-            <NumberText num="23K" text="Active Users" />
-            <NumberText num="500+" text="Partners" />
+            <NumberText num="5K" text="Current Users" />
+            <NumberText num="600+" text="Partners" />
           </div>
         </div>
 
-        <div className="hero-image">
+        {/* <div className="hero-image">
           <img src={heroImg} alt="Inventory" />
-        </div>
+        </div> */}
       </section>
     </div>
   );
